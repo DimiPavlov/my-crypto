@@ -19,8 +19,6 @@ const News = ({ simplified }) => {
     count: simplified ? 6 : 12,
   });
 
-  console.log(cryptoNews);
-
   if (!cryptoNews?.value) return "Loading...";
 
   return (
